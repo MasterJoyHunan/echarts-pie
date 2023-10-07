@@ -11,8 +11,9 @@ import { use } from 'echarts/core'
 import { SVGRenderer } from 'echarts/renderers'
 import { PieChart } from 'echarts/charts'
 import { GridComponent } from 'echarts/components'
+import { LabelLayout } from 'echarts/features'
 import VChart from 'vue-echarts'
-use([SVGRenderer, PieChart, GridComponent])
+use([SVGRenderer, PieChart, GridComponent, LabelLayout])
 
 const xywOption = ref({
     series: [
